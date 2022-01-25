@@ -48,6 +48,17 @@ img{
     padding:2.1rem;
     
 }
+/**grid**/
+@media (min-width:768px){
+    .grid {
+        display:flex;
+        justify-content:space-between;
+    }
+    .columnas-6{
+        flex: 0 0 calc(50% - 1rem);
+    }
+    
+}
 /** botones*/
 .btn{
     display: block;
@@ -152,13 +163,13 @@ background-color: #784d3c;
         justify-content:space-between;
     }
     .blog{
-        flex-basis: 66,6%;
-        order:-1;
+        flex: 0 0 calc(60% - 1rem);
+        
         
     }
     .cursos{
-        flex-basis:calc(33,3% - 4rem);
-        
+        flex-basis:calc( 40% - 4rem);
+        order:2;
         
        
     }
