@@ -39,22 +39,32 @@
 
     </header>
     <main class="contenedor">
-        <h2 class="centrar-texto">Sobre Nosotros</h2>
-        <div class="grid">
-            <div class="columnas-6">
-                <img src="img/nosotros.jpg" alt="Imagen">
+        <h2 class="centrar-texto">
+            <div class="grid centrar-columnas">
+                <div class="columnas-12">
+                    <img src="img/contacto.jpg" alt="contacto">
+                </div>
+                <div class="columnas-10 formulario-contacto">
+                    <form action="#">
+                        <div class="campo">
+                            <label for="Nombre">Nombre:</label>
+                            <input type="text" id="Nombre" placeholder="Tu Nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="email">Gmail:</label>
+                            <input type="text" id="email" placeholder="Tu Correo Electrónico">
+                        </div>
+                        <div class="campo mensaje">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje"></textarea>
+                        </div>
+                        <div class="campo enviar">
+                            <input type="submit" value="enviar" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="columnas-6">
-                <p>Donec mauris metus, aliquam vitae elit tristique, bibendum tincidunt tellus.
-                     Fusce eget dignissim lectus. Cras ante erat, tincidunt a ultricies ac, faucibus non nisi. Etiam nunc nulla,
-                      porttitor eu gravida quis, venenatis sed sem. Proin felis quam, mollis sit amet porta id, 
-                      auctor sit amet turpis. Aenean porttitor tristique enim.</p>
-                      <p> Donec tincidunt, purus quis porta semper, 
-                      orci nisl rhoncus neque, eget rutrum nulla magna vitae dolor. Curabitur pellentesque eget ante eget facilisis. 
-                      Proin vel felis interdum, aliquam augue a,
-                     hendrerit augue. In gravida tellus eu blandit bibendum.</p>
-            </div>
-        </div>
+        </h2>
     </main>
   <footer class="site-footer">
     <div class="contenedor">
